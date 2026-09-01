@@ -1,0 +1,38 @@
+{
+  "token": "PASTE_YOUR_DISCORD_BOT_TOKEN_HERE",
+  "clientId": "PASTE_YOUR_CLIENT_ID_HERE",
+  "guildId": "PASTE_YOUR_GUILD_ID_HERE",
+  "prefix": ">",
+  "verification": {
+    "roleId": "PASTE_VERIFICATION_ROLE_ID_HERE",
+    "channelId": "PASTE_VERIFICATION_CHANNEL_ID_HERE",
+    "requiredCode": "WELCOME",
+    "messageType": "embed",
+    "imageUrl": "https://images.unsplash.com/photo-1526379095076-75d284312b8b?auto=format&fit=crop&w=1200&q=80",
+    "modalTitle": "Server Verification",
+    "inputLabel": "Enter your verification code",
+    "codePlaceholder": "Example: WELCOME",
+    "successMessage": "Verification complete! Welcome to the server.",
+    "successEmbedColor": "#57F287",
+    "failureMessage": "That code is incorrect. Please try again.",
+    "welcomeTitle": "Membership Verified",
+    "welcomeDescription": "You have successfully verified and received your hidden role."
+  },
+  "customCommands": [
+    {
+      "name": "ping",
+      "description": "Reply with a pong message",
+      "response": "Pong! {user}",
+      "replyType": "text"
+    },
+    {
+      "name": "hello",
+      "description": "Say hello to the server",
+      "response": "Hello {username}! Welcome to {guild}.",
+      "replyType": "embed",
+      "title": "Server Greeting",
+      "color": "#5865F2",
+      "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80"
+    }
+  ]
+}

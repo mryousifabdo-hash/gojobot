@@ -1,0 +1,17 @@
+[
+  {
+    "name": "ping",
+    "description": "Reply with a pong message",
+    "response": "Pong! {user}",
+    "replyType": "text"
+  },
+  {
+    "name": "hello",
+    "description": "Say hello to the server",
+    "response": "Hello {username}! Welcome to {guild}.",
+    "replyType": "embed",
+    "title": "Server Greeting",
+    "color": "#5865F2",
+    "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80"
+  }
+]
